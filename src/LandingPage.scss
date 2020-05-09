@@ -1,0 +1,13 @@
+.callToAction{
+    padding: 8px;
+    background-color: black;
+    color: #fff;
+    border: 0;
+    margin-top: 10px;
+    &.green{
+        background-color: green;
+    }
+    &.blue{
+        background-color: blue;
+    }
+} 

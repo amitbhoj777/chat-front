@@ -1,0 +1,67 @@
+.mainBox{
+    height: 100vh;
+    background-image: linear-gradient(to right, #3dc1e8c9 , #ff00f761);
+    .login-box{
+        padding-top: 110px;
+        padding-left: 480px;
+        .formLogo{
+            color: #fff;
+            font-size: 26px;
+            font-weight: bold;
+            display: block;
+            padding-left: 110px;
+            padding-bottom: 20px;
+        }
+        .workArea{
+            padding: 40px;
+            padding-top: 20px;
+            padding-right: 60px;
+            width: 30%;
+            border: 0;
+            display: inline-block;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 5px 5px 10px #dcdbdb;
+            .imageSection{
+                width: 120px;
+                padding-left: 70px;
+                padding-bottom: 13px;
+                img{
+                    width: 100%;
+                    border-radius: 5px;
+                }
+            }
+            .formCont{
+                .inputArea{
+                    padding-top: 10px;
+                    input{
+                        padding: 13px;
+                        border-radius: 5px;
+                        border: 0;
+                        background: rgb(232, 240, 254);
+                        width: 100%;
+                    }
+                }
+                .buttonArea{
+                    padding-top: 15px;
+                    display: inline-block;
+                    padding-right: 5px;
+                    text-align: center;
+                    button{
+                        padding: 13px;
+                        border-radius: 5px;
+                        border: 0;
+                        background: #7b8ec7;
+                        color: #fff;
+                        cursor: pointer;
+                    
+                    }
+                }
+            }
+        }
+    }
+    
+}
+.combineButtons{
+    padding-left: 68px;
+}

@@ -1,0 +1,50 @@
+.mainBoxSignUp{
+    height: 100vh;
+    background-image: linear-gradient(to right, #3dc1e8c9 , #ff00f761);
+
+    .login-box{
+        padding: 40px;
+        padding-top: 20px;
+        border: 0;
+        display: inline-block;
+        background: #fff;
+        margin-top: 70px;
+        margin-left: 500px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px #757575;
+        .imageSection{
+            width: 120px;
+            padding-left: 34px;
+            padding-bottom: 13px;
+            img{
+                width: 100%;
+                border-radius: 5px;
+            }
+        }
+        .formCont{
+            .inputArea{
+                padding-top: 10px;
+                input{
+                    padding: 13px;
+                    border-radius: 5px;
+                    border: 0;
+                    background: rgb(232, 240, 254);
+                }
+            }
+            .buttonArea{
+                padding-top: 10px;
+                display: inline-block;
+                padding-right: 5px;
+                text-align: center;
+                button{
+                    padding: 13px;
+                    border-radius: 5px;
+                    border: 0;
+                    background-color: #7b8ec7;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

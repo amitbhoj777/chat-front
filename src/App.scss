@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  &.test {
+    /*background-color: red;*/
+  }
+  .App-header {
+    background-color: #282c34;
+    color: #fff;
+    padding: 100px;
+  }
+}
+.loader{
+  position: absolute;
+    padding-top: 40%;
+    padding-left: 85.5%;
+    background-color: #161a2f;
+    opacity: 0.9;
+    z-index: 2;
+  .imageArea{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 55px;
+    height: 55px;
+    margin: -75px 0 0 -75px;
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  .textArea{
+    position: relative;
+    padding-top: 50px;
+    padding-left: 32px;
+  }
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.toastMessage{
+    display: block;
+    position: absolute;
+    bottom: 6px;
+    padding: 18px 40px;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+  &.fail{
+    background-color: #de3131;
+  }
+  &.success{
+    background-color: #3b8e31;
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "home": "http://aap.techstudy.com",
+  "dependencies": {
+    "@marvelapp/react-ab-test": "^2.3.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "mixpanel": "^0.11.0",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.1",
+    "react-ab-test": "^2.0.1",
+    "react-dom": "^16.13.1",
+    "react-mixpanel": "^1.0.5",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "redux": "^4.0.5",
+    "redux-form": "^8.3.1",
+    "redux-saga": "^1.1.3",
+    "socket.io-client": "^2.3.0"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "rules": {
+    "semi": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ]
+  },
+  "pre-commit": [
+    "start",
+    "test",
+    "build"
+  ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "pre-commit": "^1.2.2",
+    "prettier": "2.0.2"
+  }
+}
